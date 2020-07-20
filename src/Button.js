@@ -42,7 +42,7 @@ const StyledButton = styled.button`
   position: relative;
   text-align: center;
   text-decoration: none;
-  transition: all 150ms ease-out;
+  transition: all 80ms ease-in-out;
   transform: translate3d(0,0,0);
   vertical-align: top;
   white-space: nowrap;
@@ -50,7 +50,7 @@ const StyledButton = styled.button`
   opacity: 1;
   margin: 0;
   background: transparent;
-border: 10px solid red;
+border: 1px solid grey;
   font-size: 20px;
 
   font-size: ${props => (props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2)}px;
