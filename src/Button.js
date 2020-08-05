@@ -356,7 +356,7 @@ Button.propTypes = {
   */
   loadingText: PropTypes.node,
   /**
-   Buttons that have hrefs should use <a> instead of <button>
+   Buttons that have hrefs should use "<a>" instead of <button>
   */
   isLink: PropTypes.bool,
   children: PropTypes.node.isRequired,
@@ -372,6 +372,10 @@ Button.propTypes = {
   containsIcon: PropTypes.bool,
   size: PropTypes.oneOf(Object.values(SIZES)),
   ButtonWrapper: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
+  /**
+   comment test
+   */
+  Padraic: PropTypes.bool
 };
 
 Button.defaultProps = {
@@ -384,4 +388,5 @@ Button.defaultProps = {
   containsIcon: false,
   size: SIZES.MEDIUM,
   ButtonWrapper: undefined,
+  Padraic:true
 };
